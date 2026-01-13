@@ -1,0 +1,12 @@
+Django>=4.2
+djangorestframework
+channels
+pillow
+pytesseract
+opencv-python-headless
+numpy
+fer
+celery
+redis
+requests
+google-generativeai
