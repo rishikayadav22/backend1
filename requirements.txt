@@ -12,3 +12,4 @@ requests
 google-generativeai
 django-allauth
 python-dotenv
+jwt
