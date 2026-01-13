@@ -1,40 +1,14 @@
-# Core Django
 Django>=4.2
-gunicorn
-whitenoise
-
-# REST & Auth
 djangorestframework
-django-allauth
-
-# Environment variables
-python-dotenv
-
-# Database (Render compatible)
-psycopg2-binary
-
-# AI / ML
-tensorflow==2.13.0
-numpy
+channels
+pillow
+pytesseract
 opencv-python-headless
+numpy
 fer
-deepface
-
-# Image & Media
-Pillow
-
-# Async & Background tasks
 celery
 redis
-channels
-
-# OCR & Vision (if used)
-pytesseract
-
-# APIs & Requests
 requests
 google-generativeai
-openai
-
-# Utilities
-python-dateutil
+django-allauth
+python-dotenv
