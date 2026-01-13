@@ -1,13 +1,40 @@
+# Core Django
 Django>=4.2
+gunicorn
+whitenoise
+
+# REST & Auth
 djangorestframework
-channels
-pillow
-pytesseract
-opencv-python-headless
+django-allauth
+
+# Environment variables
+python-dotenv
+
+# Database (Render compatible)
+psycopg2-binary
+
+# AI / ML
+tensorflow==2.13.0
 numpy
+opencv-python-headless
 fer
+deepface
+
+# Image & Media
+Pillow
+
+# Async & Background tasks
 celery
 redis
+channels
+
+# OCR & Vision (if used)
+pytesseract
+
+# APIs & Requests
 requests
 google-generativeai
-python-dotenv
+openai
+
+# Utilities
+python-dateutil
