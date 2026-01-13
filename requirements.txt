@@ -10,3 +10,4 @@ celery
 redis
 requests
 google-generativeai
+python-dotenv
